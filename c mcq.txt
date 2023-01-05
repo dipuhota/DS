@@ -1,0 +1,407 @@
+1) A pointer to a pointer is a form of
+a) Multiple indirections
+b) A chain of pointers
+c) Both a and b
+d) None of these
+Ans: c
+
+2) Pointers are of
+a) Integer data type
+b) Character data type
+c) Unsigned integer data types
+d) None of these
+Ans: d
+
+3) Identify the invalid pointer arithmetic
+a) Addition of float value to a pointer
+b) Comparison of pointers that do not point to the element of the same array
+c) Subtracting an integer from a pointer
+d) Assigning the value 0 to a pointer variable
+Ans: a
+
+4) Which is the correct way to declare a pointer?
+a) int_ptr;
+b) int *ptr;
+c) *int ptr;
+d) None of these.
+Ans: b
+
+5) If you want to exchange two rows in a two-dimensional array, the fastest way is to:
+a) Exchange the elements of the 2rows
+b) Exchange the address of each element in the two rows
+c) Silence the address of the rows in an array of the pointer and exchange the pointer
+d) None of these.
+Ans: c
+
+
+ 
+6) A multidimensional array can be expressed in terms of
+a) array of pointers rather than as pointers to a group of a contiguous array
+b) array without the group of a contiguous array
+c) data type arrays
+d) None of these
+Ans: a
+
+7) Which is the correct way to declare a pointer?
+a) int_ptr;
+b) int *ptr;
+c) *int ptr;
+d) None of these.
+Ans: b
+
+
+ 
+8) If you want to exchange two rows in a two-dimensional array, the fastest way is to:
+a) Exchange the elements of the 2rows
+b) Exchange the address of each element in the two rows
+c) Silence the address of the rows in an array of the pointer and exchange the pointer
+d) None of these.
+Ans: c
+
+9) Accessing members of a union is via ___ member operator or, for pointers to unions, the ___ operator.
+Ans: (.(dot), ->)
+
+10) Pointer is a variable containing the address of another variable.
+Ans: True
+
+11) A function can’t return a pointer to the caller.
+Ans: False
+
+
+ 
+12) Null character is represented by
+a) \n
+b) \0
+c) \o
+d) \e
+Ans: b
+
+13) A Structure
+a) can be read as a single entity
+b) cannot be read as a single entity
+c) can be displayed as a single entity
+d) has member variables that cannot be read individually
+Ans: b
+
+14) We cannot write a function that returns the structure.
+Ans: False
+
+
+ 
+15) ___ is a data structure whose elements can differ in type.
+Ans: Structure
+
+16) #include is called ___
+Ans: Preprocessor directive
+
+17) malloc() function returns a pointer to integer.
+Ans: False
+
+18) For deallocating memory, you can use the ___ function.
+Ans: free()
+
+19) Linked list can be used to implement stacks and queues.
+Ans: True
+
+20) ___ function is used to alter the size of a block which is previously allocated.
+a) alloc()
+b) free()
+c) realloc()
+d) malloc()
+Ans: c
+
+21) Besides the file pointers which we explicitly open by calling fopen, there are also ___ predefined streams.
+a) Two
+b) Three
+c) One
+d) Four
+Ans: b
+
+22) ___ stores the current file position indicator for stream in the object pointed to by pos.
+Ans: fgetpos
+
+23) The ___ is a parameter supplied to a program when the program is invoked.
+Ans: Command line argument
+
+24) The program instructions and global and static variables are stored in a region known as a permanent storage area and the local variables are stored in another area are called ___
+a) Stack
+b) Linked list
+c) Array
+d) Structure
+Ans: a
+
+25) The memory space that is located between these two regions is available for dynamic allocation during the execution of the program. This free memory region is called ____.
+a) Heap
+b) Array
+c) Linked list
+d) overflow
+Ans: a
+
+26) ____ clears the error and EOF indicators for the stream.
+a) clearer
+b) feof
+c) ferror
+d) perror
+Ans: a
+
+27) ____ returns non-zero if the stream’s error indicator is set, Zero otherwise.
+a) clearer
+b) feof
+c) ferror
+d) perror
+Ans: c
+
+28) ___ returns non-zero if the stream’s EOF indicator is set, Zero otherwise.
+a) clearer
+b) feof
+c) ferror
+d) perror
+Ans: b
+
+29) ___ prints a single-line error message on the program’s standard output.
+a) clearer
+b) feof
+c) ferror
+d) perror
+Ans: d
+
+
+ 
+30) Macros and functions are synonyms.
+Ans: False
+
+31) Nesting of Macro is not allowed.
+Ans: False
+
+32) ___ is usually used for header files you’ve written.
+Ans: “”
+
+33) ___ is usually used for which are provided for you.
+Ans: <>
+
+34) The ___ is a program that processes the source code before it passes through the compiler.
+Ans: Preprocessor
+
+35) ___ is a process where an identifier in a program is replaced by a predefined text.
+Ans: Macro substitution
+
+36) ___ is a processor directive used to undefined a macro.
+Ans: #undef
+
+37) ADT means
+a) Abstract Data Types
+b) Application Data type
+c) Advance Data Types
+d) Array Data Type
+Ans: a
+
+38) In an ___ expression, a binary operator separates its operands.
+a) Postfix
+b) Prefix
+c) Infix
+d) None of the above
+Ans: c
+
+39) In a ___ expression, the operands of an operator precede the operator.
+a) Postfix
+b) Prefix
+c) Infix
+d) None of the above
+Ans: a
+
+40) In the following C code
+#include <stdio.h>
+main()
+{
+FILE *fp;
+fp=fopen (“trial”,”r”);
+}
+fp points to :
+
+a) The first character in the file
+b) A structure that contains a char pointer that points to the first character in the file.
+c) The name of the file.
+d) None of the above
+Ans: b
+
+41) #define max (x,y) x=(x>y)? x:y is a macro definition, which can find the maximum of two numbers x and y if
+a) x and y are both integers
+b) x and y are both floats
+c) x and y are both double
+d) All of the above
+Ans: d
+
+42) The statement #include <math.h> is written at the top of a program to indicate
+a) the beginning of the program
+b) the program does the heavy mathematical calculation
+c) That certain information about mathematical library functions is to be included at the beginning of the program.
+d) None of the above
+Ans: c
+
+43) Consider the following declaration
+struct
+{
+short s[5];
+union
+{
+float y;
+long z;
+}
+u;
+}t;
+Assume that objects of the type short, float and long occupy 2 bytes, 4 bytes and 8 bytes respectively. the memory equipment for variable t, is
+
+a) 22 bytes
+b) 14 bytes
+c) 18 bytes
+d) 10bytes
+Ans: c
+
+44) What is the output of the following C program :
+main()
+{
+extern int i;
+i=20;
+printf(“%d”,sizeof(i));
+}
+
+a) 2
+b) 4
+c) would vary from compiler to complier
+d) error, I undefined
+Ans: D
+
+45) What is the output of the following C program :
+main()
+{
+extern int a;
+printf(“%d”,a);
+}
+int a=20;
+}
+
+a) 0
+b) 20
+c) error
+d) garbage value
+Ans: b
+
+46) What is the output of the following C program :
+main()
+{
+extern int fun(float);
+int a;
+a=fun(3.14);
+printf(“%d”,a);
+}
+int fun(aa)
+float aa;
+{
+return ((int)aa);
+}
+
+a) 3.14
+b) 3.0
+c) 0
+d) Error
+Ans: d
+
+47) What is the output of the following C program :
+main()
+{
+int a[5]={2,3};
+printf(“%d%d%d”,a[2],a[3],a[4]);
+}
+
+a) Garbage values
+b) 2 3 3
+c) 3 2 2
+d) 0 0 0
+Ans: d
+
+48. Which of the following is charecter oriented console I/O function?
+a) getchar() and putchar()
+b) gets() and puts()
+c) scanf() and printf()
+d)fgets() and fputs()
+Ans: a
+
+49. All of the above integer type plus the chair are called the ….. float and double are called the ……
+a) Integral types, integral types
+b) Float types, integral types
+c) Both of the above
+d) None of the above
+Ans: a
+
+50. The two user-defined data types are:
+a) enumerated, constructor
+b) Enumerated, typed
+c) Typedet, deconstructor
+d) None of the above
+Ans: b
+
+51. What are the legal variable names that can be included in the C program.
+a) Printf, x1, gama, scanf
+b) Break (), struct, best-yet, result
+c) X1, out-file, gamma, x
+d) Pow, gets, x.1, result
+Ans: c
+
+52. The …… variable is not destroyed on exit from the function; instead its value is presented and becomes available again. When the function is next called. These variables are declared as …….
+a) extern, localvariable
+b) Static, global variable
+c) Static, local variable
+d) Exten, global variable
+Ans: c
+
+53. An …………..is a collection of variables of the same type. And they are declared like this:
+a) Arry, int height (10)
+b) Structure, struct height
+c) Enumerated, Enum height (2)
+d) Classes, class height
+Ans: a
+
+54. It is divided from a computing language named …… and from an earlier language ……
+a) B, BCLP
+b) B, PCPL
+c) B, BCPL
+d) None of the above
+Ans: c
+
+55. …… allows the programs to interact with the screen, keyboard and file system of your computer.
+a) # include (stdio.h>
+b) #include <file.h>
+c) #include <conio.h>
+d) #include <math.h>
+Ans: a
+
+56 …… is a library function used in C to display any output to the terminal. The text to be printed is enclosed in ……. quotes.
+a) Printf, Single
+b) Printf, double
+c) Scanf, double
+d) none
+Ans: b
+
+57. Continue statement is used
+a) to go to the next iteration in a loop
+b) come out of a loop
+c) exit and return to the main function
+d) restarts iterations from the beginning of the loop
+Ans: A
+
+58. Suppose that i is an integer variable whose value is 7 and f is the floating-point variable whose value is 8.5. Evaluate the following expression : ( i + f)%4
+a) 3
+b) 3.5
+c) 4
+d) Invalid
+Ans: d
+
+59. There are two ways to categorize variables: By ____, and by ___
+Ans: data type, storage class
+
+60. The string is actually stored as an array of ……. the null character …… is automatically placed at the end of a string to act as a string ……..
+a) Constants, \n, terminator
+b) Characters, \0, terminator
+c) Character, \t, initialize
+d) None of the above
+Ans: b
